@@ -1,10 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-      int x;
-      x = 5;
-      x = 10;
-      x = x + 1;
-      x += 1;
-        System.out.println(x);
+     int x; // declare
+     x = 10; // assignment
+     System.out.println(x);
+
+     int y = 20; // declare and assignment
+     System.out.println(y);
+
+     var z = 50; //var  means
+     System.out.println(z);
+
+     int i, j ,k; // declare multiple constants
     }
 }
